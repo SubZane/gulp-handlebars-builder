@@ -114,7 +114,7 @@ function handlebars(data, opts) {
 		}
 
 		if (file.isStream()) {
-			this.emit('error', new PluginError('gulp-handlebars-compiler', 'Streaming not supported'));
+			this.emit('error', new PluginError('gulp-handlebars-builder', 'Streaming not supported'));
 			return cb();
 		}
 
@@ -131,7 +131,7 @@ function handlebars(data, opts) {
 			var template = hb.compile(fileContents, options.compile);
 			file.contents = new Buffer(template(_data));
 		} catch (err) {
-			this.emit('error', new PluginError('gulp-handlebars-compiler', err));
+			this.emit('error', new PluginError('gulp-handlebars-builder', err));
 		}
 
 		this.push(file);

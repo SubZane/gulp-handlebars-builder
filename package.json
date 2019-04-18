@@ -1,9 +1,9 @@
 {
-  "name": "gulp-handlebars-compiler",
+  "name": "gulp-handlebars-builder",
   "version": "1.0.0",
   "description": "Compile Handlebars templates to file - gulp plugin",
   "license": "MIT",
-  "repository": "https://github.com/SubZane/gulp-handlebars-compiler",
+  "repository": "https://github.com/SubZane/gulp-handlebars-builder",
   "author": {
     "name": "Andreas Lee-Norman",
     "email": "andreas@lee-norman.com",

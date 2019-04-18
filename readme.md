@@ -1,4 +1,4 @@
-# gulp-compile-handlebars
+# gulp-handlebars-builder
 Forked from [gulp-template](https://github.com/sindresorhus/gulp-template)
 Inspired by [grunt-compile-handlebars](https://github.com/patrickkettner/grunt-compile-handlebars)
 Forged again (due to inactivity) from [gulp-compile-handlebars](https://github.com/kaanon/gulp-compile-handlebars)
@@ -7,10 +7,10 @@ Forged again (due to inactivity) from [gulp-compile-handlebars](https://github.c
 
 ## Install
 
-Install with [npm](https://npmjs.org/package/gulp-compile-handlebars)
+Install with [npm](https://npmjs.org/package/gulp-handlebars-builder)
 
 ```
-npm install --save-dev gulp-handlebars-compiler
+npm install --save-dev gulp-handlebars-builder
 ```
 
 
@@ -35,7 +35,7 @@ npm install --save-dev gulp-handlebars-compiler
 
 ```js
 var gulp = require('gulp');
-var handlebars = require('gulp-compile-handlebars');
+var handlebars = require('gulp-handlebars-builder');
 var rename = require('gulp-rename');
 
 gulp.task('default', function () {
@@ -84,7 +84,7 @@ gulp.task('default', function () {
 You can access the Handlebars library from the `handlebars.Handlebars` property.
 
 ```js
-var handlebars = require('gulp-compile-handlebars');
+var handlebars = require('gulp-handlebars-builder');
 var safestring = new handlebars.Handlebars.SafeString('<strong>HELLO! KAANON</strong>');
 ```
 
