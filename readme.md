@@ -1,6 +1,7 @@
 # gulp-compile-handlebars
 Forked from [gulp-template](https://github.com/sindresorhus/gulp-template)
 Inspired by [grunt-compile-handlebars](https://github.com/patrickkettner/grunt-compile-handlebars)
+Forged again (due to inactivity) from [gulp-compile-handlebars](https://github.com/kaanon/gulp-compile-handlebars)
 
 > Compile [Handlebars templates](http://www.handlebarsjs.com/)
 
@@ -9,7 +10,7 @@ Inspired by [grunt-compile-handlebars](https://github.com/patrickkettner/grunt-c
 Install with [npm](https://npmjs.org/package/gulp-compile-handlebars)
 
 ```
-npm install --save-dev gulp-compile-handlebars
+npm install --save-dev gulp-handlebars-compiler
 ```
 
 
@@ -94,6 +95,6 @@ If you pass in template data this will be extended with the object from gulp-dat
 
 See [gulp-data](https://www.npmjs.org/package/gulp-data) for usage examples.
 
-## License
-
-[MIT](http://opensource.org/licenses/MIT) © [Kaanon MacFarlane](http://kaanon.com)
+### Version History
+## 1.0.0
+Initial forked version, fixed gulp-util dependency issue

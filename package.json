@@ -1,13 +1,13 @@
 {
-  "name": "gulp-compile-handlebars",
-  "version": "0.6.0",
+  "name": "gulp-handlebars-compiler",
+  "version": "1.0.0",
   "description": "Compile Handlebars templates to file - gulp plugin",
   "license": "MIT",
-  "repository": "kaanon/gulp-compile-handlebars",
+  "repository": "https://github.com/SubZane/gulp-handlebars-compiler",
   "author": {
-    "name": "Kaanon MacFarlane",
-    "email": "kaanonm@gmail.com",
-    "url": "http://kaanon.com"
+    "name": "Andreas Lee-Norman",
+    "email": "andreas@lee-norman.com",
+    "url": "https://www.andreasnorman.com"
   },
   "engines": {
     "node": ">=0.10.0"
@@ -28,11 +28,12 @@
     "rendering"
   ],
   "dependencies": {
-    "gulp-util": "^3.0.3",
     "through2": "^0.6.3",
+    "plugin-error": "^0.1.2",
     "handlebars": ">=3.0.0"
   },
   "devDependencies": {
-    "mocha": "*"
+    "mocha": "*",
+    "vinyl": "^2.1.0"
   }
 }
